@@ -81,9 +81,11 @@ Weite Teile der Logik fehlen aber noch: (`management.py`)
 Hier folgt eine kurzer Leitfaden zur Einarbeitung in das Projekt.
 
 ## Part 1: Setup
+- Installieren Sie das Versionsverwaltungsprogramm git und den Python Dependencie Manager uv.
 - Legen Sie sich einen GitHub Account an.
 - Legen Sie einen Fork dieses Repositories an. (Grüner Button)
 - Wechseln Sie dann zu Ihrem eigenen Fork und Klonen Sie das Projekt, damit sie lokal daran arbeiten können.
+- Öffnen Sie den Ordner in VSCode und führen Sie `uv sync` aus.
 
 ## Part 2: Einarbeiten
 - Informieren Sie sich, mit Hilfe des Arbeitsblattes zum 3 Schichtenmodell.
