@@ -25,7 +25,7 @@ Intern werden einzelne Bücher aktuell als Dictionary mit folgenden *keys* gespe
 {
     "isbn": str,               # eindeutige Buch-ID
     "title": str,              # Titel des Buches
-    "subject": str,            # Schulfach
+    "categorie": str,          # Kategorie
     "total": int,              # Gesamtanzahl der Exemplare
     "available": int,          # Zurzeit verfügbare Bücher
 }
@@ -38,7 +38,7 @@ Es muss jedoch noch evaluiert werden wie alle Bücher zusammengefasst werden:
 
 ### Datenspeicher 
 
-Der bisherige Bücherbestand ist als CSV Datei `bestand.csv` gespeichert. Eine persistente Speicherung der ausgeliehenen Bücher existiert noch nicht digital.
+Der bisherige Bücherbestand ist als CSV Datei `bestand.csv` gespeichert. Wer welches Buch ausgeliehen hat wird aktuell nicht digital erfasst.
 
 Langfristig soll der Wechsel auf eine Datenbank als Speichermedium eingeplant werden.
 

@@ -1,9 +1,9 @@
-isbn;title;subject;total;available
-9780135957059;The Pragmatic Programmer;IT;25;18
-9780132350884;Clean Code: A Handbook of Agile Software Craftsmanship;IT;30;22
-9781492082798;Learning Python;IT;40;35
-9780134685991;Fundamentals of Database Systems;IT;20;15
-9780133760064;Economics: Principles and Policy;Economics;45;38
-9780134796758;Financial Accounting;Economics;35;30
-9780134472140;Microeconomics;Economics;28;25
-9781260566093;Principles of Corporate Finance;Economics;22;18
+isbn;title;categorie;total;available
+9780135957059;The Pragmatic Programmer;IT;2;1
+9780132350884;Clean Code: A Handbook of Agile Software Craftsmanship;IT;1;0
+9781492082798;Learning Python;IT;3;1
+9780134685991;Fundamentals of Database Systems;IT;3;0
+9780133760064;Economics: Principles and Policy;Economics;1;1
+9780134796758;Financial Accounting;Economics;1;0
+9780134472140;Microeconomics;Economics;2;1
+9781260566093;Principles of Corporate Finance;Economics;3;3
