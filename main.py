@@ -1,6 +1,6 @@
 # Bookmanagement
 import repo_csv as repo
-import tui
+import tui_rich as tui
 import management
 
 
