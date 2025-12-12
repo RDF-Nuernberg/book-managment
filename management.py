@@ -2,12 +2,12 @@ def search_book_by_name(name, collection):
     """Searches for a book by name in the collection and returns it as a dictionary"""
     # TODO: implement this function
 
-def get_book_index(book, collection):
-    """Returns the index of the given book in the collection."""
-    # TODO: implement this function
-
 def add_book(new_book, collection):
     """Check if the ISBN of the book is unique and then add it to the colllection."""
+    # TODO: implement this function
+
+def remove_book(isbn, collection):
+    """Remove a book from the collection based on the isbn"""
     # TODO: implement this function
 
 def borrow_book(book):
