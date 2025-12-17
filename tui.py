@@ -112,6 +112,9 @@ def get_book_name_from_user():
     """prompts the user for a book name and returns it"""
     return input("Geben Sie den Namen des Buches ein: ")
 
+def get_isbn_from_user():
+    """prompts the user for a isbn number and returns it"""
+    return input("Geben Sie die ISBN ein: ")
 
 def wait_for_user_interaction():
     input("\n[Drücke Enter um fortzufahren...]")

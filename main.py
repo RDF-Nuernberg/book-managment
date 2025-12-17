@@ -25,7 +25,8 @@ def main():
             case 1: # Alle Bücher anzeigen
                 tui.display_list_of_books(all_books)
             case 2: # Verfügbare Bücher anzeigen
-                pass  # TODO: implement this
+                available_books = management.filter_for_available_books(all_books)
+                tui.display_list_of_books(available_books)
             case 3: # Ausgeliehene Bücher anzeigen
                 pass  # TODO: implement this
             case 4: # Buch hinzufügen
